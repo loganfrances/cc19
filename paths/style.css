@@ -79,30 +79,56 @@ h5#woman{
 h5#kid{
 	font: small-caps 16px/1.4 Arial, Helvetica, sans-serif;
 	font-stretch: normal;
-	font-style: italic;
 }
 
 h5#cal{
 	font: small-caps 16px/1.4 Arial, Helvetica, sans-serif;
 	font-stretch: semi-expanded;
-	font-style: italic;
 }
 
 h5#calibre{
 	font: small-caps 16px/1.4 Arial, Helvetica, sans-serif;
 	font-stretch: expanded;
-	font-style: italic;
 }
 
 h5#cannon{
 	font: small-caps 16px/1.4 Arial, Helvetica, sans-serif;
 	font-stretch: extra-expanded;
-	font-style: oblique;
 }
 
 h5#gun{
 	font: small-caps 16px/1.4 Arial, Helvetica, sans-serif;
 	font-stretch: ultra-expanded;
-	font-style: oblique
 }
+
+-----
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
