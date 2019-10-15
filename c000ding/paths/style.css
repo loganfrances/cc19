@@ -1,0 +1,134 @@
+section#blood{
+	display: block;
+	margin-left: 20px;
+	position: relative;
+	border: 5px solid darkred;
+	padding: 25px;
+	width: 30vw;
+}
+
+h5#meat{
+	color:cornsilk;
+}
+
+h5#right{
+	color:navajowhite;
+}
+
+h5#righttwo{
+	color:darksalmon;
+}
+
+h5#hold{
+	color:indianred;
+}
+
+h5#boy{
+	color:firebrick;
+}
+
+h5#bill{
+	color:brown;
+}
+
+h5#blood{
+	color:darkred;
+}
+
+section#bluelight{
+	position: absolute, bottom 50px;
+	border: 5px dotted darksalmon;
+	padding: 25px;
+	width: 30vw;
+}
+
+h5#blue{
+	font-size: xx-small;
+}
+
+h5#blew{
+	font-size: x-small;
+}
+
+h5#brute{
+	font-size: small;
+}
+
+h5#rude{
+	font-size: medium;
+}
+
+h5#red{
+	font-size: large;
+}
+
+section#gungungun{
+	color: maroon;
+}
+
+h5#girl{
+	font: small-caps 16px/1.4 Arial, Helvetica, sans-serif;
+	font-stretch: ultra-condensed;
+}
+
+h5#woman{
+	font: small-caps 16px/1.4 Arial, Helvetica, sans-serif;
+	font-stretch: condensed;
+}
+
+h5#kid{
+	font: small-caps 16px/1.4 Arial, Helvetica, sans-serif;
+	font-stretch: normal;
+}
+
+h5#cal{
+	font: small-caps 16px/1.4 Arial, Helvetica, sans-serif;
+	font-stretch: semi-expanded;
+}
+
+h5#calibre{
+	font: small-caps 16px/1.4 Arial, Helvetica, sans-serif;
+	font-stretch: expanded;
+}
+
+h5#cannon{
+	font: small-caps 16px/1.4 Arial, Helvetica, sans-serif;
+	font-stretch: extra-expanded;
+}
+
+h5#gun{
+	font: small-caps 16px/1.4 Arial, Helvetica, sans-serif;
+	font-stretch: ultra-expanded;
+}
+
+-----
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

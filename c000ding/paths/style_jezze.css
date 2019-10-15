@@ -1,0 +1,52 @@
+#smiley{
+	position: absolute;
+	top: 20px;
+	left: 20px;
+	z-index: 1;
+}
+
+.bodyody{
+	position: relative;
+	top: 200px;
+}
+
+#torso{
+	position: absolute;
+	left: 150px;
+	width: 200px;
+	height: 350px;
+	z-index: 0;
+
+}
+
+#robobody{
+	position: absolute;
+	top: 40px;
+	left: 10px;
+	z-index: -1;
+	width: 300px;
+	height: 300px;
+}
+
+#arm {
+	position: absolute;
+	left: 275px;
+	top: 40px;
+	width: 400px;
+	z-index: 2;
+}
+
+#pelvis{
+	position: absolute;
+	height: 200px;
+	top: 275px;
+	left: 40px;
+	z-index: 3;
+}
+
+#tail{
+	position: absolute;
+	top: 150px;
+	right:170px;
+	z-index: 0;
+}
