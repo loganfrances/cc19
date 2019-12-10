@@ -1,0 +1,84 @@
+body{
+	background-color: #00DDFF;
+	width: 100vw;
+	height: 100vh;
+}
+
+#beans span{
+	color: #0C00FF;
+	font-family: sans-serif;
+	font-size: xx-large;
+	font-weight: bolder;
+	top: 50vh;
+	left: 25vw;
+	position: relative;
+	float: left;
+	animation-name: wiggle;
+}
+
+#gabe span{
+	color: #98FEFF;
+	font-family: sans-serif;
+	font-size: xx-large;
+	font-weight: bolder;
+	top:50vh;
+	left:50vw;
+	position: relative;
+	animation-name: burst;
+	transform: translate(2px, 2px), rotate(0deg);
+	display: inline-block;
+}
+
+#beans:hover span{
+	cursor:pointer;
+	animation-name: wiggle;
+	animation-duration: 4s;
+	animation-timing-function: linear;
+	animation-iteration-count: infinite;
+}
+
+#gabe:hover span{
+	cursor:pointer;
+	animation-name: burst;
+	animation-duration: 10s;
+	animation-timing-function: linear;
+	animation-iteration-count: infinite;
+}
+
+@keyframes wiggle{
+	0%{
+		position: relative;
+		transform: translate(-10px, -10px);
+	}
+	50%{
+		position: relative;
+		transform: translate(10px, 10px);
+	}
+	100%{
+		position: relative;
+		transform: translate(-10px, -10px);
+	}
+}
+
+@keyframes burst{
+	0%{
+		position: relative;
+		transform: translate(2px, 2px) rotate(0deg);
+	}
+	25%{
+		position: relative;
+		transform: translate(-3px, -4px) rotate(-1deg);
+	}
+	50%{
+		position: relative;
+		transform: translate(1px, 3px) rotate(1deg);
+	}
+	75%{
+		position: relative;
+		transform: translate(-2px, -2px) rotate(-2deg);
+	}
+	100%{
+		position: relative;
+		transform: translate(2px, 1px) rotate(2deg);
+	}
+}
