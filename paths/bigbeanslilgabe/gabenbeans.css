@@ -1,9 +1,6 @@
 body{
-	background-color: #00DDFF;
-	width: 100vw;
-	height: 100vh;
+    background-color: lightcyan;
 }
-
 #beans span{
 	color: #0C00FF;
 	font-family: sans-serif;
@@ -32,7 +29,7 @@ body{
 #beans:hover span{
 	cursor:pointer;
 	animation-name: wiggle;
-	animation-duration: 4s;
+	animation-duration: 3s;
 	animation-timing-function: linear;
 	animation-iteration-count: infinite;
 }
@@ -40,7 +37,7 @@ body{
 #gabe:hover span{
 	cursor:pointer;
 	animation-name: burst;
-	animation-duration: 10s;
+	animation-duration: 4s;
 	animation-timing-function: linear;
 	animation-iteration-count: infinite;
 }
@@ -48,15 +45,23 @@ body{
 @keyframes wiggle{
 	0%{
 		position: relative;
-		transform: translate(-10px, -10px);
+		transform: translate(-20px, -10px);
 	}
-	50%{
+	25%{
 		position: relative;
-		transform: translate(10px, 10px);
+		transform: translate(40px, -20px);
 	}
+    50%{
+        position: relative;
+        transform: translate(-25px, 0px);
+    }
+    75%{
+        position: relative;
+        transform: translate(35px, 10px);
+    }
 	100%{
 		position: relative;
-		transform: translate(-10px, -10px);
+		transform: translate(-30px, -20px);
 	}
 }
 
@@ -67,18 +72,18 @@ body{
 	}
 	25%{
 		position: relative;
-		transform: translate(-3px, -4px) rotate(-1deg);
+		transform: translate(-5px, -4px) rotate(-40deg);
 	}
 	50%{
 		position: relative;
-		transform: translate(1px, 3px) rotate(1deg);
+		transform: translate(1px, 3px) rotate(10deg);
 	}
 	75%{
 		position: relative;
-		transform: translate(-2px, -2px) rotate(-2deg);
+		transform: translate(-2px, -2px) rotate(-20deg);
 	}
 	100%{
 		position: relative;
-		transform: translate(2px, 1px) rotate(2deg);
+		transform: translate(2px, 2px) rotate(20deg);
 	}
 }
