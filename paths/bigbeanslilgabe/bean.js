@@ -3,6 +3,6 @@ $(document).ready(function () {
     var WOOF = $("#woof")[0];
     $(".calendar-box").click(function(){
         WOOF.play();
+        $(".roxi2").show();
     });
 });
-

@@ -69,8 +69,26 @@ p {
     width: 9%;
     display: inline-grid;
     vertical-align: top;
+    text-align: center;
 }
 
+.done{
+    font: sans-serif large blue;
+    visibility: visible;
+    animation: none;
+    position: absolute;
+    right: 100%; 
+    opacity: 0;
+}
+
+.done:hover{
+    opacity: 1;
+}
+
+.done:active{
+    opacity: 0;
+}
+    
 #day2{
     left:17%;
 }
@@ -95,4 +113,9 @@ body{
 	width: 100vw;
 }
 
+.roxi2{
+    width: 20vw;
+    height: 30vh;
+    display: none;
+}
 
