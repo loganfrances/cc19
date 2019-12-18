@@ -44,15 +44,51 @@ p {
 }
 
 #calendar{
+    z-index: 0; 
+    width: 90vw;
+    padding: 30px;
+    margin: 20px;
+    top: 80px;
+    left: 0px;
+}
+
+#block{
 	position: relative;
 	width: 90vw;
 	padding: 30px;
 	margin: 20px;
-	top: 100px;
-	left: 0px;
+	top: 120px;
+	left: 10px;
+    z-index: 1;
 }
 
+.calendar-box{
+    position: absolute;
+    top: 90px;
+    height: 100%;
+    width: 9%;
+    display: inline-grid;
+    vertical-align: top;
+}
 
+#day2{
+    left:17%;
+}
+#day3{
+    left:30%;
+}
+#day4{
+    left:45%
+}
+#day5{
+    left:58%;
+}
+#day6{
+    left:70%;
+}
+#day7{
+    left:80%;
+}
 body{
 	background-color: #98FEFF;
 	height: 100vh;
